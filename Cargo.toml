@@ -1,0 +1,11 @@
+[package]
+name = "lau-queueing-theory"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Queueing theory — mathematical analysis of waiting lines and service systems (M/M/1, M/M/c, M/G/1, Erlang formulas, Jackson networks, priority queues, agent scheduling)"
+repository = "https://github.com/SuperInstance/lau-queueing-theory"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+nalgebra = { version = "0.33", features = ["serde-serialize"] }
